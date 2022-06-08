@@ -22,8 +22,8 @@ const vm = (
   </div>
 );
 
-const $root = document.body.querySelector("#root");
+const root = document.body.querySelector("#root");
 
-$root.innerHTML = `
+root.innerHTML = `
     <pre>${JSON.stringify(vm, null, 2)}</pre>
 `;
